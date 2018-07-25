@@ -1,0 +1,33 @@
+body {
+	background-color: rgba(70, 70, 88, 1);
+}
+h1 {
+	font-family: fantasy;
+	text-align: center;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+}
+.login {
+	font-family: "Times New Roman";
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 3px solid black;
+}
+.images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+img:hover {
+	transform: scale(1.1);
+}
+a {
+	text-align: center;
+	font-size: 2em;
+}
